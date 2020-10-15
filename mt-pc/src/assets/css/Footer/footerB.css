@@ -1,0 +1,32 @@
+.FooterB{
+    width: 100%;
+    color: #999;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    line-height: 1.6;
+    display: flex;
+}
+
+.FooterB .logo111{
+   padding-left: 30px;
+   padding-right: 30px;
+}
+
+.FooterB .logo111 i{
+    font-style: normal;
+    width: 100%;
+    height: 100%;
+    font-family: "iconfont";
+    display: inline-block;
+    font-size: 67px;
+    color: #008c8c;
+}
+.FooterB .logo111 i::before{
+    content: "\e82f";
+}
+
+.FooterB .right{
+    line-height: 52px;
+    color: #222222;
+}

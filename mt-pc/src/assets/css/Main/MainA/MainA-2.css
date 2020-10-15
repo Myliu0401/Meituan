@@ -1,0 +1,199 @@
+.mainA2 {
+    height: 415px;
+    width: 550px;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    margin-right: 10px;
+  }
+  
+  .mainA2 .top {
+    position: absolute;
+    display: flex;
+    top: -45px;
+    left: 20px;
+    width: 900px;
+  }
+  
+  .mainA2 .top h4 {
+    color: #222;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0 20px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .mainA2 .rotationChart {
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+    position: relative;
+  }
+  .mainA2 .rotationChart ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+  }
+  
+  .mainA2 .rotationChart ul li {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  
+  .mainA2 .rotationChart .Smaller,
+  .about {
+    position: absolute;
+    width: 100%;
+  }
+  
+  .mainA2 .rotationChart .Smaller {
+    width: 100%;
+    height: 35px;
+    bottom: 0px;
+    background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5),
+      rgba(184, 181, 181, 0.2)
+    );
+    text-align: center;
+  }
+  
+  .mainA2 .rotationChart .Smaller span {
+    width: 20px;
+    height: 3px;
+    display: inline-block;
+    background-color: #fff;
+    margin: 0px 7px;
+    box-sizing: border-box;
+    position: relative;
+    top: 2px;
+    opacity: 0.5;
+  }
+  .mainA2 .rotationChart .Smaller span:hover {
+    cursor: pointer;
+    opacity: 1;
+  }
+  
+  .mainA2 .rotationChart .Smaller span.Select {
+    opacity: 1;
+  }
+  
+  .mainA2 .rotationChart:hover {
+    cursor: pointer;
+  }
+  .mainA2 .rotationChart:hover .about span {
+    opacity: 0.7;
+  }
+  
+  .mainA2 .rotationChart .about {
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0px 15px;
+    box-sizing: border-box;
+  }
+  
+  .mainA2 .rotationChart .about span {
+    width: 40px;
+    height: 40px;
+    background: #333;
+    z-index: 99;
+    border-radius: 40px;
+    opacity: 0;
+    transition: opacity 0.5s;
+    transform: scale(0.95);
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+  }
+  .mainA2 .rotationChart .about span i {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    top: 42%;
+    position: relative;
+    box-sizing: border-box;
+    border-bottom: 2px solid rgba(250, 249, 249, 0.5);
+  }
+  
+  .mainA2 .rotationChart .about span:first-of-type i {
+    border-left: 2px solid rgba(250, 249, 249, 0.5);
+    transform: rotate(45deg) translateY(-50%);
+    left: -2px;
+  }
+  .mainA2 .rotationChart .about span:last-of-type i {
+    border-right: 2px solid rgba(250, 249, 249, 0.5);
+    transform: rotate(-45deg) translateY(-50%);
+    right: -2px;
+  }
+  
+  .mainA2 .rotationChart .about span:last-of-type {
+    float: right;
+  }
+  
+  .mainA2 .rotationChart .about span:hover i {
+    border-color: #ffffff;
+  }
+  
+  .mainA2 .bottom{
+    width: 100%;
+    height: 175px;
+    display: flex;
+    padding-top: 10px;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .mainA2 .bottom .b1{
+    width: 270px;
+    height: 100%;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .mainA2 .bottom .b1:last-of-type{
+    right: -10px;
+  }
+  
+  .mainA2 .bottom .b1 div{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .mainA2 .bottom .b1 div:hover{
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .mainA2 {
+      width: 470px;
+    }
+  
+    .mainA2 .rotationChart ul li {
+      background-size: cover;
+      background-position: 50%;
+    }
+     
+    .mainA2 .bottom .b1{
+      width: 230px;
+    }
+  }
+  
+  @media screen and (min-width: 2000px) {
+    .mainA2 {
+      width: 800px;
+    }
+    .mainA2 .rotationChart ul li {
+      background-size: cover;
+    }
+     
+  }

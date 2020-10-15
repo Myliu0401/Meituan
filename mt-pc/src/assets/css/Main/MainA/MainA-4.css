@@ -1,0 +1,103 @@
+.mainA4 {
+    width: 230px;
+    box-sizing: border-box;
+    padding-top: 10px;
+  }
+  
+  .mainA4 .mi {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  
+  .mainA4 .mi .m1 {
+    width: 100%;
+    height: 238px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-top: 30px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
+  }
+  
+  .mainA4 .mi .m1 img {
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    border: 4px solid #e5e5e5;
+  }
+  
+  .mainA4 .mi .m1 .img {
+    text-align: center;
+  }
+  
+  .mainA4 .mi .m1 span {
+    display: inline-block;
+    width: 118px;
+    text-align: center;
+    margin: 10px auto 5px auto;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 40px;
+    font-size: 14px;
+    transition: background-color 0.5s;
+    line-height: 38px;
+  }
+  .mainA4 .mi .m1 span a {
+    color: #333333;
+  }
+  
+  .mainA4 .mi .m1 span:hover {
+    cursor: pointer;
+    background-color: #f6f6f6;
+  }
+  
+  .mainA4 .mi .m0{
+      box-sizing: border-box;
+  }
+  
+  .mainA4 .mi .m2 {
+    width: 100%;
+    height: 165px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    margin-top: 10px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .mainA4 .mi .m2 .mA2{
+      width: 100%;
+      text-align: center;
+  }
+  
+  .mainA4 .mi .m2 .mA2 img{
+      width: 95px;
+      height: 95px;
+  }
+  
+  .mainA4 .mi .m2 .mA3 p:last-of-type{
+      font-size: 13px;
+      box-sizing: border-box;
+  }
+  .mainA4 .mi .m2 .mA3 p span{
+      box-sizing: border-box;
+      margin-right: 5px;
+  }
+  
+  .mainA4 .mi .m2 .mA3 p span:first-of-type{
+      color: red;
+  }
+  
+  @media screen and (min-width: 2000px) {
+    .mainA4 {
+      width: 430px;
+    }
+  }

@@ -1,0 +1,232 @@
+.mianA1 {
+    width: 230px;
+    height: 477px;
+    position: relative;
+    box-sizing: border-box;
+    margin-top: -50px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    color: #646464;
+  }
+  .mianA1 .title {
+    height: 50px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    color: black;
+  }
+  .mianA1 .title h4 {
+    margin-left: 15px;
+  }
+  
+  .mianA1 .leftMainBody {
+    width: 100%;
+    height: 425px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 8px;
+  }
+  
+  .mianA1 .leftMainBody .leftbiao {
+    position: relative;
+    box-sizing: border-box;
+    padding: 0px 12px;
+    height: 26px;
+  }
+  
+  .mianA1 .leftMainBody .leftbiao .ziti,
+  .hot {
+    font-size: 13px;
+    line-height: 20px;
+    height: 20px;
+    color: #646464;
+    cursor: pointer;
+  }
+  .hot {
+    background-color: #fff3cc;
+    color: #222222;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 0px 7px;
+    border-radius: 10px;
+  }
+  
+  .mianA1 .leftMainBody .leftbiao:hover {
+    background: rgba(255, 150, 0, 0.08);
+    color: #222222;
+  }
+  
+  .mianA1 .leftMainBody .leftbiao.is:hover .hot {
+    font-weight: 400;
+    background: linear-gradient(to bottom right, #ffd000, #ffbd00);
+    background-color: black;
+  }
+  
+  .mianA1 .leftMainBody .leftbiao:hover .ziti {
+    font-weight: 700;
+  }
+  
+  .mianA1 .leftMainBody .leftbiao .ziti i {
+    font-style: normal;
+  }
+  
+  .mianA1 .leftMainBody .right {
+    float: right;
+    width: 5px;
+    height: 5px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%) rotate(-45deg);
+  }
+  
+  .mianA1 .Secondary {
+    position: absolute;
+    width: 400px;
+    height: 416px;
+    top: 60px;
+    left: 230px;
+    background-color: #fff;
+    z-index: 199;
+    color: #666;
+    overflow: hidden;
+  }
+  
+  .mianA1 .Secondary .SA {
+    padding: 0px 30px;
+  }
+  
+  .mianA1 .Secondary .SA .S1 {
+    margin-top: 24px;
+    height: 22px;
+    line-height: 22px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    justify-content: space-between;
+  }
+  .mianA1 .Secondary .SA .S1 h5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #222222;
+  }
+  .mianA1 .Secondary .SA .S1 span {
+    font-size: 12px;
+    color: #999;
+    font-weight: 400;
+    float: right;
+    margin-right: 6px;
+    position: relative;
+    cursor: pointer;
+  }
+  .mianA1 .Secondary .SA .S1 span i {
+    width: 4px;
+    height: 4px;
+    border-bottom: 1px solid #999;
+    border-right: 1px solid #999;
+    transform: rotate(-45deg);
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -6px;
+    margin: auto;
+  }
+  
+  .mianA1 .Secondary .SA .S2 span {
+    color: #999;
+    font-size: 12px;
+    line-height: 15px;
+    display: inline-block;
+    margin-right: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .mianA1 .Secondary .SA .S2 span:hover {
+    color: #fe8c00;
+  }
+  
+  .iconfont {
+    font-family: "iconfont";
+    font-style: normal;
+    padding-right: 5px;
+  }
+  
+  .food::before {
+    content: "\e62f";
+    color: #ff8200;
+  }
+  .takeoutfood::before {
+    content: "\e601";
+    color: #ffb500;
+  }
+  .hotel::before {
+    content: "\e748";
+    color: #9b5e3e;
+  }
+  .mingshu::before {
+    content: "\e89f";
+    color: #ffb500;
+  }
+  
+  .film::before {
+    content: "\e67e";
+    color: #ff3d00;
+  }
+  
+  .ticket::before {
+    content: "\e762";
+    color: #03a9f4;
+  }
+  .ment::before {
+    content: "\e643";
+    color: #00bf96;
+  }
+  
+  .service::before {
+    content: "\e68f";
+    color: #00bf96;
+  }
+  
+  .beauty::before {
+    content: "\e64c";
+    color: #ff4081;
+  }
+  
+  .marry::before {
+    content: "\e644";
+    color: #ff4081;
+  }
+  .Parenting::before {
+    content: "\e617";
+    color: #ff4081;
+  }
+  .motion::before {
+    content: "\e60e";
+    color: #03a9f4;
+  }
+  .renovation::before {
+    content: "\e61a";
+    color: #00bf96;
+  }
+  .study::before {
+    content: "\e600";
+    color: #03a9f4;
+  }
+  .medical::before {
+    content: "\e67f";
+    color: #03a9f4;
+  }
+  .bar::before {
+    content: "\e613";
+    color: #00bf96;
+  }
+  @media screen and (max-width: 1000px) {
+    .mianA1 {
+      width: 295px;
+    }
+  
+  }
+  

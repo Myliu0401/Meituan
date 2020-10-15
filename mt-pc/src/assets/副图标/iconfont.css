@@ -1,0 +1,25 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1600968026333'); /* IE9 */
+  src: url('iconfont.eot?t=1600968026333#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAARMAAsAAAAACPwAAAQAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqFXIRbATYCJAMMCwgABCAFhG0HPRuoB1GULco+sh+SJDP90eB4uuTbgLAFACMEAAAAAABEUI2he/8fAFSALvFhhwpUZFi4sOQSOFNNDlSnlo3I/83pT3EIsicHTKpwHVCS/ruk5cuNnmdJ4MZqSs1uatNjYfvTfm5mhtvLiFpUa6TdTRKiidD4RBLNNPmNbP9zzHT5fGD5bTaXyKKopr0BbjqbjSOD4ogC5AT9HuKtLvM8gVqDaihLYzN+yFDo0wJxbHIVMhJKpQIXqiWVBWuLeAps1ena9gXNE+/347/04JFUZPrcjd3REAz80n2m2FfSl9odBLCG04PdRMYUUIidQuM2e+CZYlcrCx3V4ZWKkIayp9N4TIVfafzDIwmiki6sR+yYPDkolkUh8aeefdSsi/t+JTqAn0CL6QEG0E4ZE7NaWSbNRbX0l5TSzBKcnJa93pYr1h7027W/+9x0fd1wHD09LX+7K0N88PtN4PLwV8clx00bZeL09OysNHVycqw1BfxwoKFN+ME0ItC+Ev9xCQ3UU1YoXzqQEBE6W9c45nWae/OCXUZXRqEB8w6y+vLcGNfvOC6lOYFsqF3OIq9U4uosu+72BGiX0SmhUnsyp87OaasL83pDw3qyrdHyPPHC/BYdVAwZpfae1RVb6x7zoeQmWlVSxz2PglhhbIbwFIYGR2XFLUcpY+q8Mnv1Msu+uQuGZgxu8Kiq2QcEWSslLDvB4Hf5wbWXnkDpQVDp4/7lOmWmnbr9QLC/rEY+AoPLB859QF3NwwEgjodVd7Mm9Kq9TReKucFZwjNEynzWAElOA396wIkSLdhB36x5av2S+h5ABPw4UFzs4AODChMnrnwz6F2IuErzz9cuT+KLKdw5tWHIF/4P+4xD7DmnQaQsf73wF6cWvxSzp9lpoCzmeHu0OtVOS4DklcfBxpF/YWC8+8qgObSAljDBAN2Wj+xNv8nfeP+hfexq6vnJqCvgx+Fvq7fm8bLIl0BTLdGY9VOwGlYUhaOrcpGYFlPzZ19BdcvpQOcsHunWVh/dzR0g0odqjgWQVBmArNoQsmCnoEKdGahUbRZqTRrfXKeNYBelBhO2CYRmz5A0+gBZsxdkwb5DhU5/UKk5mFBrM4r3rDMSI1nDAlWJIaJtEVNPxJmpkVl+vBf5WlQVcY6Hpygs004a6xrS/nGMoxhigbXOm6RkhIlEjIyRyzAaTZCkSIRRl3WGlMmu+npW9EV1eiIGWRYJSCWhEEKzhTDpEuKYU1vKyvy8F+LWRKlERVmZmkKCxWydaFSnoQFyXBhvVHYpgy3ruCaSxKhJjJAQQ4yBHkUNTwKRLB4VhnRSHaODK6lLPVZjTYV104tj97cBaulP5UiRo6jfx6gaZxjnuoGOTTPOAQA=') format('woff2'),
+  url('iconfont.woff?t=1600968026333') format('woff'),
+  url('iconfont.ttf?t=1600968026333') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1600968026333#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-helanfengche:before {
+  content: "\e82f";
+}
+
+.icon-xing:before {
+  content: "\e618";
+}
+

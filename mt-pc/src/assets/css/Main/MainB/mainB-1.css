@@ -1,0 +1,258 @@
+.MainB1 {
+    box-sizing: border-box;
+    margin-top: 40px;
+  }
+  .MainB1 .top {
+    width: 100%;
+    height: 44px;
+    background: linear-gradient(
+        to right,
+        rgb(250, 60, 104) 2%,
+        rgb(254, 70, 77) 97%
+      )
+      rgb(250, 60, 104);
+    color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-sizing: border-box;
+    padding: 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+  }
+  .MainB1 .bottom {
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    padding: 0px 12px;
+  }
+  
+  .MainB1 .bottom .bottomA {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px 12px;
+  }
+  
+  .MainB1 .bottom .bottomA span {
+    width: 40px;
+    height: 40px;
+    background: #333;
+    z-index: 99;
+    border-radius: 40px;
+    opacity: 0;
+    transition: opacity 0.5s;
+    transform: scale(0.95);
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+  }
+  
+  .MainB1 .bottom .bottomA span i {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    top: 42%;
+    position: relative;
+    box-sizing: border-box;
+    border-bottom: 2px solid rgba(250, 249, 249, 0.5);
+  }
+  
+  .MainB1 .bottom .bottomA span:first-of-type i {
+    border-left: 2px solid rgba(250, 249, 249, 0.5);
+    transform: rotate(45deg) translateY(-50%);
+    left: -2px;
+  }
+  
+  .MainB1 .bottom .bottomA span:last-of-type i {
+    border-right: 2px solid rgba(250, 249, 249, 0.5);
+    transform: rotate(-45deg) translateY(-50%);
+    right: -2px;
+  }
+  
+  .MainB1 .bottom:hover {
+    cursor: pointer;
+  }
+  
+  .MainB1 .bottom:hover .bottomA span {
+    transition: opacity 0.5s;
+    opacity: 0.7;
+  }
+  
+  .MainB1 .bottom .bottomA span:hover i {
+    border-color: #fff;
+  }
+  
+  
+  .MainB1 .top .left span:first-of-type {
+    font-size: 18px;
+    font-family: "ElegantStyle";
+    margin-right: 15px;
+    box-sizing: border-box;
+  }
+  
+  .MainB1 .top .left span {
+    box-sizing: border-box;
+    margin-right: 10px;
+  }
+  
+  .MainB1 .top .left .t1 {
+    position: relative;
+  }
+  
+  .MainB1 .top .left .t1:hover {
+    cursor: pointer;
+  }
+  
+  .MainB1 .top .left .t1.misi::before {
+    position: absolute;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 7px solid #fff;
+    content: " ";
+    display: block;
+    width: 2px;
+    height: 0;
+    top: 26px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  
+  .MainB1 .top .right i {
+    width: 7px;
+    height: 7px;
+    display: inline-block;
+    margin-left: 2px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(-45deg);
+    top: -2px;
+    position: relative;
+  }
+  
+  .MainB1 .top .right:hover {
+    cursor: pointer;
+  }
+  
+  .MainB1 .bottom ul {
+    display: flex;
+    position: relative;
+    top: 1px;
+    box-sizing: border-box;
+  }
+  
+  .MainB1 .bottom ul li {
+    width: 214px;
+    height: 297px;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin-right: 19px;
+  }
+  
+  .MainB1 .bottom ul li img:first-of-type {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+  }
+  
+  .MainB1 .bottom ul li img:last-of-type {
+    position: absolute;
+    top: 10px;
+    z-index: 99;
+    left: -6px;
+    height: 20px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+    width: auto;
+    border: 0px;
+  }
+  
+  .MainB1 .bottom .bottom1 {
+    color: #fff;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-image: linear-gradient(
+      -180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(29, 45, 55, 0.8) 99%
+    );
+  }
+  
+  .MainB1 .bottom .bottom1 .b2 span:first-of-type {
+    text-align: left;
+    color: #fff;
+    padding-left: 10px;
+    font-size: 16px;
+    white-space: nowrap;
+    width: 6em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 500;
+    display: inline-block;
+  }
+  
+  .MainB1 .bottom .bottom1 .b1,
+  .MainB1 .bottom .bottom1 .b2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    box-sizing: border-box;
+  }
+  
+  .MainB1 .bottom .bottom1 .b1 {
+    padding-left: 10px;
+    padding-top: 48px;
+  }
+  
+  .MainB1 .bottom .bottom1 .b2 {
+    justify-content: space-between;
+  }
+  
+  .MainB1 .bottom .bottom1 .b2 span:last-of-type {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 20px;
+    text-align: center;
+    float: right;
+    right: 10px;
+    background: rgb(255, 73, 73);
+    border-radius: 100px;
+    padding: 2px 12px 3px;
+  }
+  
+  .misinai {
+    font-size: 16px;
+    color: #fd9827;
+    font-weight: 500;
+  }
+  .naisi {
+    font-size: 12px;
+    padding: 0px 2px;
+    font-weight: 500;
+  }
+  
+  @font-face {
+    font-family: "ElegantStyle";
+    src: url("../../../字体/华康翩翩.ttf");
+  }
+  
+  @font-face {
+    font-family: "GoodNight";
+    src: url("../../../字体/【开开】晚安体.ttf");
+  }

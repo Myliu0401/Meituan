@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 2064123 */
+    src: url('../../小图标/iconfont.eot');
+    src: url('../../小图标/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../../小图标/iconfont.woff2') format('woff2'),
+    url('../../小图标/iconfont.woff') format('woff'),
+    url('../../小图标/iconfont.ttf') format('truetype'),
+    url('../../小图标/iconfont.svg#iconfont') format('svg');
+  }

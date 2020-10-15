@@ -1,0 +1,188 @@
+.chengshi {
+    width: 1200px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+  }
+  
+  .chengshi .Searcharea {
+    display: flex;
+    box-sizing: border-box;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .chengshi .Searcharea .left {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    box-sizing: border-box;
+  }
+  
+  .chengshi .Searcharea h3,
+  .chengshi .right h3 {
+    display: inline-block;
+    font-size: 16px;
+    color: #333333;
+    font-weight: 500;
+    margin-right: 15px;
+  }
+  .chengshi .Searcharea .left {
+    font-size: 14px;
+    color: #666666;
+  }
+  
+  .chengshi .Searcharea .left .div {
+    position: relative;
+    width: 150px;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 10px;
+    padding-right: 0px;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  .chengshi .Searcharea .left i {
+    display: inline-block;
+    position: absolute;
+    border: 5px solid transparent;
+    border-top: 5px solid #666666;
+    right: 7px;
+    top: 16px;
+  }
+  
+  .chengshi .right input {
+    padding-left: 10px;
+    box-sizing: border-box;
+    outline: none;
+    width: 220px;
+    height: 40px;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+  }
+  .chengshi .Searcharea .left div.naimi {
+    cursor: pointer;
+  }
+  .chengshi .Searcharea .left div.minai {
+    cursor: no-drop;
+  }
+  .chengshi .fu {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    padding: 20px 0px 20px 15px;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+    top: 45px;
+    left: 0px;
+  }
+  .chengshi .f1 {
+    width: 264px;
+    height: 375px;
+    /* display: none !important; */
+  }
+  
+  .chengshi .Searcharea .left .opz {
+    display: flex;
+    width: 100%;
+  }
+  .chengshi .Searcharea .opz dd {
+    height: 20px;
+    margin: 6px 38px 6px 0;
+    padding: 1px 8px;
+    box-sizing: border-box;
+    display: table;
+    font-size: 12px;
+    cursor: pointer;
+    color: #666666;
+  }
+  
+  .chengshi .Searcharea .left .div.v2 .opz dd {
+    cursor: pointer;
+    font-size: 12px;
+    color: #666;
+    display: block;
+    box-sizing: border-box;
+    min-width: 40px;
+    height: 20px;
+    padding: 1px 8px;
+    margin: 6px 38px 6px 0;
+    white-space: nowrap;
+  }
+  .chengshi .Searcharea .left .div.v2 .opz dd:hover a {
+    color: #222222;
+    font-weight: 500;
+  }
+  
+  .chengshi .Searcharea .left .div.v1 .opz dd:hover {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+  }
+  .chengshi .Searcharea .fu dt {
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .chengshi .fu::before {
+    content: "";
+    position: absolute;
+    top: -7px;
+    left: 26px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #e5e5e5;
+    border-top: 0;
+  }
+  .chengshi .fu::after {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 26px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #fff;
+    border-top: 0;
+  }
+  
+  .chengshi .Searcharea .right {
+    position: relative;
+  }
+  .chengshi .Searcharea .right .f2 ul{
+    min-width: 150px;
+    max-height: 375px;
+    left: 94px;
+    padding: 0px 20px 0px 15px;
+    overflow-y: scroll;
+  }
+  .chengshi .Searcharea .right .f2 {
+    position: absolute;
+      cursor: default;
+      top: 47px;
+      left: 94px;
+      border-radius: 4px;
+      padding: 0px;
+  }
+  .chengshi .Searcharea .right .f2 li{
+    cursor: pointer;
+    font-size: 12px;
+    color: #666;
+    display: block;
+    box-sizing: border-box;
+    min-width: 40px;
+    height: 20px;
+    padding: 1px 8px;
+    margin: 6px 38px 6px 0;
+    white-space: nowrap;
+  }
+  
+  .chengshi .Searcharea .right .f2 li:hover a{
+    color: #222222;
+    font-weight: 500;
+  }

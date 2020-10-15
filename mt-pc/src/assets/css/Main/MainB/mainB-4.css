@@ -1,0 +1,84 @@
+.MainB4 {
+    width: 1200px;
+    margin-top: 40px;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+  }
+  @media screen and (min-width: 2000px) {
+    .MainB4 {
+      width: 90%;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .MainB4 {
+      width: 900px;
+    }
+  }
+  .MainB4 .top {
+    font-size: 16px;
+    color: #222222;
+    font-weight: 500;
+    box-sizing: border-box;
+    padding-top: 6px;
+    padding-left: 20px;
+    height: 44px;
+    line-height: 44px;
+  }
+  
+  .MainB4 .nav .n1 {
+    display: flex;
+  }
+  
+  .MainB4 .nav .n1 .nA {
+    width: 100px;
+    height: 100%;
+    float: left;
+    font-size: 14px;
+    font-weight: 500;
+    color: #222222;
+    text-align: center;
+    padding: 10px 0;
+  }
+  .MainB4 .nav .n1 .nB {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding-top: 12px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .MainB4 .nav .n1:last-of-type .nB {
+    border-bottom: none;
+  }
+  .MainB4 .nav .n1 .nB span {
+    display: inline-block;
+    cursor: pointer;
+    color: #666666;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100px;
+    height: 17px;
+    font-size: 12px;
+    text-align: left;
+    margin-bottom: 13px;
+  }
+  
+  .MainB4 .nav .nB i {
+    font-style: normal;
+    font-size: 12px;
+    color: #fff;
+    background: #ff4848;
+    font-weight: 400;
+    border-radius: 10px;
+    padding: 0 6px;
+    margin: 0 5px;
+    position: relative;
+    top: -1px;
+  }
+  .MainB4 .nav .n1 .nB span:hover {
+    color: #fe8c00;
+  }

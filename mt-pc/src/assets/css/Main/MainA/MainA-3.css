@@ -1,0 +1,43 @@
+.mainA3 {
+    width: 150px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    margin-right: 10px;
+  }
+  
+  .mainA3 .A3 {
+    width: 100%;
+  }
+  
+  .mainA3 .A3 div {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .mainA3 .A3:first-of-type {
+    width: 100%;
+    height: 240px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .mainA3 .A3:last-of-type {
+    width: 100%;
+    height: 165px;
+  }
+  
+  .mainA3 .A3 div:hover {
+    cursor: pointer;
+  }
+  
+  @media screen and (min-width: 2000px) {
+    .mainA3 {
+      width: 300px;
+    }
+    .mainA3 .A3 div {
+      background-size: cover;
+      background-position: 50%;
+    }
+  }

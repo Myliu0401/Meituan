@@ -1,0 +1,25 @@
+.top11 {
+    width: 100%;
+    margin-top: 10px;
+    box-sizing: border-box;
+    height: 220px;
+    background-color: aliceblue;
+    border-radius: 4px;
+    position: relative;
+    z-index: 999;
+  }
+  .top11 .imgmi {
+    width: 100%;
+    height: 100%;
+    font-family: "iconfont";
+    text-align: center;
+    border: 1px solid #e5e5e5;
+    font-size: 220px;
+    line-height: 220px;
+    color: cadetblue;
+    border-radius: 4px;
+    transition: box-shadow 0.3s;
+  }
+  .top11 .imgmi::before {
+    content: "\e61c";
+  }

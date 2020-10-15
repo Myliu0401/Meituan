@@ -1,0 +1,99 @@
+.top .topNo {
+    display: flex;
+    padding: 15px 20px 0px;
+  }
+  .top .topNo:first-of-type .t2{
+    border-bottom: 1px solid #E5E5E5;
+  }
+  .t2{
+    padding-bottom: 10px;
+  }
+  .top .topNo .t1 {
+    min-width: 160px;
+  }
+  .top .topNo .t1 .tno1 {
+    width: 80px;
+    display: inline-block;
+  }
+  .top .topNo .t1 .tno2 {
+    display: inline-block;
+    height: 22px;
+    line-height: 22px;
+    background: linear-gradient(to bottom right, #ffd000, #ffbd00);
+    color: #222222;
+    border-radius: 100px;
+    box-sizing: border-box;
+    padding: 0px 10px;
+  }
+  
+  .top .topNo .t2 ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .top .topNo .t2 ul li {
+    min-width: 120px;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    line-height: 28px;
+    color: #666;
+    position: relative;
+  }
+  .top .topNo .t2 ul li .naidiv {
+    position: relative;
+    cursor: pointer;
+  }
+  .top .topNo .t2 ul li .naidiv::before {
+    content: "";
+    display: inline-block;
+    border: 5px solid transparent;
+    border-top: 5px solid #666666;
+    position: absolute;
+    right: -15px;
+    top: 8px;
+  }
+  .top .topNo .t2 ul li .naidiv.naimi::after {
+    content: "";
+    display: inline-block;
+    border: 5px solid transparent;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom: 7px solid #acaaaa;
+  }
+  .top .topNo .t2 .midiv {
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 222;
+    max-width: 515px;
+    left: 0px;
+    top: 97%;
+  }
+  
+  .top .topNo .t2 .midiv dl {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 19px 15px;
+    padding-bottom: 9px;
+    border-radius: 4px;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+    border: 1px solid #e5e5e5;
+    min-width: 500px;
+    background-color: #ffffff;
+  }
+  .top .topNo .t2 .midiv .mydt {
+    width: 100%;
+    position: relative;
+  }
+  .top .topNo .t2 .midiv dl dd {
+    min-width: 120px;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  .top .topNo .t2 .midiv dl dt {
+    color: #ccc;
+    font-size: 16px;
+  }

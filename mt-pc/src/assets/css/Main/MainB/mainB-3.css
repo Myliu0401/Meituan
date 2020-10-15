@@ -1,0 +1,213 @@
+.MainB3 {
+    width: 1200px;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+
+@media screen and (min-width: 2000px) {
+    .MainB3 {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .MainB3 {
+        width: 900px;
+    }
+
+    .MainB3 .bottom .naisi {
+        width: 25% !important;
+    }
+}
+
+.MainB3 .top {
+    width: 100%;
+    height: 44px;
+    box-sizing: border-box;
+    line-height: 44px;
+    padding: 0px 20px;
+    font-size: 14px;
+    color: #ffffff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: linear-gradient(to right,
+            rgb(88, 174, 221) 2%,
+            rgb(66, 191, 205) 97%) rgb(88, 174, 221);
+}
+
+.naisi {
+    width: 20% !important;
+}
+
+.MainB3 .top dl {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.MainB3 .top dl dt {
+    margin-right: 7px;
+    font-size: 18px;
+    font-family: "ElegantStyle";
+}
+
+.MainB3 .top dl dd {
+    padding-left: 10px;
+    position: relative;
+}
+
+.MainB3 .top dl dd:hover {
+    cursor: pointer;
+}
+
+.MainB3 .top dl dd.misi::before {
+    position: absolute;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 7px solid #fff;
+    content: " ";
+    display: block;
+    width: 2px;
+    height: 0;
+    bottom: 0px;
+    left: 6px;
+    right: 0;
+    margin: auto;
+}
+
+.MainB3 .bottom ul {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.MainB3 .bottom ul li {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.MainB3 .bottom ul li .top1 {
+    height: 0;
+    width: 100%;
+    padding-bottom: 56.25%;
+    background-color: #f4f4f4;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.MainB3 .bottom ul li .top1 img {
+    width: 100%;
+    font-size: 0;
+}
+
+.MainB3 .bottom .bottom1 {
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.MainB3 .bottom .bottom1 .b1 {
+    position: relative;
+    display: flex;
+}
+
+.MainB3 .bottom .bottom1 .b1 ul:last-of-type {
+    position: absolute;
+    top: 0px;
+    width: 88%;
+    color: #ff9900;
+    overflow: hidden;
+}
+
+.MainB3 .bottom .bottom1 .b1 ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin: 3px 0;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+    color: #c3c3c3;
+}
+
+.MainB3 .bottom .bottom1 .b1 div {
+    width: 84px;
+    position: relative;
+    bottom: -2px;
+}
+
+.MainB3 .bottom .bottom1 .b1 ul li {
+    font-family: "iconfont";
+    padding: 0px;
+    font-size: 12px;
+    padding: 0px 2px;
+}
+
+.MainB3 .bottom .bottom1 .b1 ul li::before {
+    content: "\e618";
+}
+
+.MainB3 .bottom .bottom1 .b1 span {
+    font-size: 12px;
+    color: #999;
+    height: 24px;
+    line-height: 24px;
+    margin-left: 10px;
+}
+
+.MainB3 .bottom .bottom1 .p1 {
+    font-size: 16px;
+    line-height: 22px;
+    width: 100%;
+    height: 22px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.MainB3 .bottom .bottom1 .p2 {
+    font-size: 12px;
+    color: #999999;
+    width: 100%;
+    height: 18px;
+    line-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 4px;
+}
+
+.MainB3 .bottom .bottom1 .p3 {
+    font-size: 22px;
+    color: #ff6600;
+}
+
+.MainB3 .bottom .bottom1 .p3 span:first-of-type {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.MainB3 .bottom .bottom1 .p3 span:last-of-type {
+    font-size: 12px;
+    margin-left: 4px;
+    font-weight: 700;
+}
+
+.naisi:hover {
+    cursor: pointer;
+    background-color: #f4f4f4;
+    transition: background-color 500ms;
+    border-radius: 4px;
+}
+
+.MainB3 .bottom .naisimi {
+    background-color: #fff;
+    border: 1px solid #E5E5E5;
+    border-top: 0;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 10px 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-y: hidden;
+    text-align: left;
+}

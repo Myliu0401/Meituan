@@ -1,0 +1,23 @@
+{
+  "id": "2093037",
+  "name": "美团副",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "15817371",
+      "name": "荷兰风车",
+      "font_class": "helanfengche",
+      "unicode": "e82f",
+      "unicode_decimal": 59439
+    },
+    {
+      "icon_id": "2336054",
+      "name": "星",
+      "font_class": "xing",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+.FooterA {
+    width: 100%;
+    padding: 40px 45px;
+    box-sizing: border-box;
+    display: flex;
+    border-top: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+  }
+  .FooterA div {
+    width: 20%;
+  }
+  .FooterA div dl{
+      box-sizing: border-box;
+      margin-bottom: 20px;
+      color: #666666;
+  }
+  .FooterA div dl dt {
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+  }
+  .FooterA div dl dd{
+      line-height: 25px;
+      font-size: 12px;
+  }
+  
+  .FooterA div dl dd span:hover{
+     cursor: pointer;
+     color: #fe8c00;
+  }

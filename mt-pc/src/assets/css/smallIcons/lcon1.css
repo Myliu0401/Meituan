@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 2093037 */
+    src: url('../../五角星/iconfont.eot');
+    src: url('../../五角星/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../../五角星/iconfont.woff2') format('woff2'),
+    url('../../五角星/iconfont.woff') format('woff'),
+    url('../../五角星/iconfont.ttf') format('truetype'),
+    url('../../五角星/iconfont.svg#iconfont') format('svg');
+  }

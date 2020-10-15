@@ -1,0 +1,178 @@
+/* 头部区的样式 */
+.mitobu {
+    border-bottom: 2px solid #d8d8d8;
+    color: #666666;
+  }
+  .tobu {
+    width: 980px;
+    margin: 0 auto;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    width: 128px;
+    background-image: url("//s0.meituan.net/bs/file/?f=fe-sso-fs:build/assets/logo.6a89007.png");
+    background-size: contain;
+    height: 36px;
+    background-repeat: no-repeat;
+  }
+  .text {
+    margin-right: 10px;
+    vertical-align: sub;
+    line-height: 36px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .denglu111 {
+    padding: 3px 10px;
+    font-size: 12px;
+    border-color: rgba(191, 105, 0, 0.15);
+    color: #222;
+    background-image: linear-gradient(135deg, #ffd000 0, #ffbd00 100%);
+    border-width: 0;
+    box-shadow: 0 2px 1px rgba(191, 105, 0, 0.15);
+    background-size: 100%;
+    border-radius: 3px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  
+  /* 主体区的样式 */
+  .Mymain111 {
+    width: 980px;
+    margin: 0 auto;
+    padding-top: 30px;
+    margin-bottom: 30px;
+  }
+  .Mymain111 .inputA {
+    position: relative;
+    padding: 8px 0 8px 110px;
+    zoom: 1;
+  }
+  
+  
+  .Mymain111 label {
+    position: absolute;
+    width: 100px;
+    padding-top: 6px;
+    left: 0px;
+    font-size: 15px;
+    text-align: right;
+    color: #333333;
+    font-weight: 400;
+  }
+  
+  .Mymain111 input {
+    outline: none;
+    width: 248px;
+    height: 24px;
+    line-height: 24px;
+    border: 1px solid #aaa;
+    padding: 5px;
+  }
+  
+  .qiandu {
+    width: 260px;
+    background: #eee;
+    top: 50px;
+    left: 110px;
+    position: absolute;
+  }
+  
+  .qiandu span {
+    display: block;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    width: 85px;
+    border-right: 2px solid #fff;
+    color: #fff;
+  }
+  .qiandu span:last-of-type {
+    border: none;
+  }
+  .lo {
+    background: #d3ebee;
+    height: 20px;
+    width: 0;
+    overflow: hidden;
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+  }
+  
+  .kl {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  .mi {
+    padding-bottom: 27px !important;
+  }
+  
+  /*  */
+  .fuhao {
+    color: #666666;
+    display: inline-block;
+    margin-left: 4px;
+    line-height: 24px;
+    font-size: 12px;
+    padding: 6px 0px;
+  }
+  .fuhao i {
+    font-style: normal;
+    background-image: url("//s0.meituan.net/bs/file/?f=fe-sso-fs:build/assets/icons.c1b3784.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    overflow: hidden;
+    background-position: 0 -296px;
+    vertical-align: -3px;
+  }
+  
+  .sp1 {
+    color: #222;
+    background: linear-gradient(135deg, #ffd000 0, #ffbd00 100%);
+    border-width: 0;
+    box-shadow: 0 2px 1px rgba(191, 105, 0, 0.15);
+    background-size: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+    padding: 7px 20px;
+    cursor: pointer;
+  }
+  
+  /* 协议 */
+  .xieyi {
+    position: relative;
+    padding: 3px 10px 3px 110px;
+    margin: 0 auto 8px;
+    zoom: 1;
+  }
+  .xieyi span {
+    cursor: pointer;
+    color: #FE8C00;
+    font-size: 13px;
+  }
+  
+  
+  /* 尾部区域 */
+  .misifoo{
+      text-align: center;
+      border-top: 1px solid #eee;
+      padding-top: 20px;
+      color: #999999;
+      font-size: 13px;
+  }

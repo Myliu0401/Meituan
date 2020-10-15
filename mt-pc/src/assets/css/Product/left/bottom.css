@@ -1,0 +1,301 @@
+.zhuti {
+    padding: 11px 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 4px;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #e5e5e5;
+    margin-top: 10px;
+  }
+  .zhuti .top {
+    padding-bottom: 2px;
+  }
+  .zhuti .top span {
+    display: inline-block;
+    min-width: 96px;
+    color: #666666;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .zhuti .top span.naio::before {
+    border: 5px solid #ccc;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    position: absolute;
+    content: "";
+    left: 59px;
+    top: 11px;
+  }
+  .zhuti .top span.naio.b::before {
+    border-top-color: #222222;
+  }
+  .zhuti .top span.naio.a::after {
+    border-bottom-color: #222222;
+  }
+  
+  .zhuti .top span.naio::after {
+    border: 5px solid #ccc;
+    border-top: 5px solid transparent;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    position: absolute;
+    content: "";
+    top: -1px;
+    left: 59px;
+  }
+  .zhong {
+    color: #222222 !important;
+  }
+  
+  /* ================== */
+  /* 产品区 */
+  .zhuti .bottom {
+    box-sizing: border-box;
+    padding: 11px 20px;
+    padding-left: 0px;
+  }
+  
+  /* 为每一个产品的样式 */
+  .zhuti .bottom .bt1 {
+    box-sizing: border-box;
+    padding: 20px 0px 16px;
+    border-top: 1px solid #e5e5e5;
+    display: flex;
+  }
+  
+  /* 每个产品的左边区域,图片区 */
+  .zhuti .bottom .bt1 .mileft {
+    height: 125px;
+    min-width: 220px;
+    box-sizing: border-box;
+    position: relative;
+    max-width: 220px;
+    cursor: pointer;
+  }
+  /* 图片 */
+  .zhuti .bottom .bt1 .mileft img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+  }
+  
+  /* 图片左上角的,编号 */
+  .zhuti .bottom .bt1 .mileft .myspan {
+    background-color: #fb6433;
+    position: absolute;
+    width: 20px;
+    line-height: 13px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  /* 每个产品的右边区域,图片右边的区域 */
+  .zhuti .bottom .miright {
+    margin-left: 20px;
+    box-sizing: border-box;
+    color: #666666;
+    flex-grow: 1;
+  }
+  
+  /* 右边区域标题 */
+  .zhuti .bottom .miright .mip {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333333;
+  }
+  /* 右边区域,装星星的样式 */
+  .Star {
+    position: relative;
+    width: 84px;
+    height: 20px;
+    line-height: 20px;
+  }
+  /* 星星的父级样式 */
+  .UL {
+    position: absolute;
+    display: flex;
+    font-size: 12px;
+    color: #c3c3c3;
+  }
+  /* 星星的样式 */
+  .xingxing {
+    font-family: "iconfont";
+    padding: 0px 2px;
+  }
+  /* 星星 */
+  .xingxing::before {
+    content: "\e618";
+  }
+  /* 有颜色的星星样式 */
+  /*  4评分 */
+  .naisiQ {
+    overflow: hidden;
+    width: 80%;
+    color: #ff9900;
+    z-index: 99;
+  }
+  /* 3评分 */
+  .naisiP {
+    overflow: hidden;
+    width: 60%;
+    color: #ff9900;
+    z-index: 99;
+  }
+  /* 五评分 */
+  .naisiA {
+    overflow: hidden;
+    width: 100%;
+    color: #ff9900;
+    z-index: 99;
+  }
+  /* 3评分以上4平分以下 */
+  .naisiB {
+    overflow: hidden;
+    width: 70%;
+    color: #ff9900;
+    z-index: 99;
+  }
+  
+  /* 装星星那一行的样式,最外层 和 装地址那个的最外层样式*/
+  .mi2,
+  .mi3 {
+    display: flex;
+    margin-top: 6px;
+  }
+  .mi2 {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .mi2 span {
+    margin-right: 10px;
+  }
+  
+  .highlight {
+    color: #ff9900;
+  }
+  
+  /* 标签区的样式 */
+  .mi3 .mi3A {
+    max-width: 110px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-right: 10px;
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .mi3{
+      font-size: 12px;
+  }
+  /* 右边区域的主信息最外层样式 */
+  .Maininformation {
+    padding-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* 处理地址的容器的宽度 */
+  @media screen and (min-width: 2000px) {
+    .address {
+      max-width: 580px !important;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .address {
+      max-width: 180px !important;
+    }
+    .Sp {
+      max-width: 380px;
+    }
+  }
+  
+  .address {
+    max-width: 380px;
+    margin-right: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  /* 主信息区域,钱的样式 */
+  .mi4 {
+    font-size: 12px;
+    color: #666;
+    margin-top: 6px;
+  }
+  
+  /* ====== 副信息区域 ====== */
+  .Sidemessage {
+    box-sizing: border-box;
+    padding-right: 10px;
+    padding-bottom: 8px;
+    line-height: 20px;
+  }
+  .Sidemessage .Side1 {
+    padding-top: 10px;
+    border-top: 1px dashed #e5e5e5;
+    padding-bottom: 10px;
+  }
+  .Sidemessage .Side1:hover {
+    background-color: #f8f8f8;
+    border-radius: 4px;
+  }
+  .Sidemessage .Side1:hover p{
+    color: #FE8C00;
+  }
+  .Sidemessage .Sp {
+    font-size: 14px;
+    color: #666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 645px;
+  }
+  
+  .soana {
+    margin-right: 10px;
+    color: #ff6600;
+    font-size: 15px;
+    position: relative;
+    padding-left: 7px;
+  }
+  .spanA {
+    font-size: 12px;
+    position: absolute;
+    left: 0px;
+    top: 1px;
+  }
+  .spanb,
+  .spanc {
+    margin-right: 10px;
+    color: #999;
+    font-size: 12px;
+  }
+  .spanc {
+    margin: 0px;
+  }
+
+
+
+
+  /* 地图图标 */
+  .ditu{
+    font-family:"iconfont";
+    font-style: normal;
+    color: rgb(156, 146, 0);
+    font-size: 16px;
+  }
+  .ditu::before{
+    content: "\e683";
+  }
+  .myditu{
+    color: #222222;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+  }

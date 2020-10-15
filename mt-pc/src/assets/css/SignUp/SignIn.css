@@ -1,0 +1,305 @@
+:root,
+body {
+  background-color: #ffffff !important;
+}
+.SignIn {
+  width: 980px;
+  margin: 0 auto;
+}
+
+/* logo区 */
+.logo {
+  background-image: url("//s0.meituan.net/bs/file/?f=fe-sso-fs:build/assets/logo.6a89007.png");
+  width: 130px;
+  height: 47px;
+  background-position: 0;
+  background-size: 100%;
+}
+.header {
+  margin: 40px auto 30px;
+}
+
+/* 主体区 */
+.Mymain {
+  display: flex;
+}
+
+/* 图片区 */
+.Mymain .BackgroundMap {
+  width: 480px;
+  height: 370px;
+  margin-right: 115px;
+}
+.Mymain .BackgroundMap img {
+  width: 100%;
+  height: 100%;
+}
+
+/* 登录区 */
+.LoginArea {
+  width: 270px;
+}
+
+.LoginArea .error {
+  padding: 10px;
+  border: 1px solid #f5d8a7;
+  font-size: 12px;
+  background-color: #fff6db;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  color: #666666;
+}
+
+.LoginArea .error .mp {
+  background-image: url("//s0.meituan.net/bs/file/?f=fe-sso-fs:build/assets/icons.c1b3784.png");
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  background-position: 0;
+  background-size: 100%;
+  vertical-align: -3px;
+  margin-right: 5px;
+}
+
+.spanmi {
+  color: #666666;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+/* 账号样式 */
+.accountNumber {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #aaa;
+  margin: 8px 0px;
+  background-color: #ffffff;
+  align-items: center;
+}
+
+.number {
+  display: inline-block;
+  color: #646464;
+  text-decoration: none;
+  position: relative;
+  line-height: 1px;
+}
+
+.number .mik {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+}
+.number .mik::before {
+  width: 8px;
+  height: 1px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(90deg);
+  box-shadow: inset 0 0 0 1px;
+  content: "";
+}
+
+.number .mik::after {
+  width: 8px;
+  height: 1px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: inset 0 0 0 1px;
+  content: "";
+}
+
+.shuzi {
+  color: #646464;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.i {
+  width: 5px;
+  height: 5px;
+  display: inline-block;
+  border-right: 1px solid #646464;
+  border-top: 1px solid #646464;
+  transform: rotate(45deg);
+  margin-right: 4px;
+  position: relative;
+  bottom: 2px;
+  position: relative;
+}
+
+.zhn {
+  width: 180px;
+  padding: 5px;
+  outline: none;
+  border: none;
+  line-height: 24px;
+  font-family: inherit;
+}
+
+/* 密码 */
+.password {
+  width: 100%;
+  margin: 16px 0px;
+  margin-bottom: 8px;
+  border: 1px solid #aaa;
+  position: relative;
+}
+.misiYe {
+  border-color: #fe8c00 !important;
+}
+
+.password .shuo {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  background-image: url("//s0.meituan.net/bs/file/?f=fe-sso-fs:build/assets/sp-normal.2ee5c09.png");
+  background-position: -1250px -527px;
+  top: 6px;
+  left: 9px;
+  line-height: 18px;
+  vertical-align: text-top;
+  position: absolute;
+}
+
+.mima {
+  outline: none;
+  border: none;
+  padding: 5px;
+  padding-left: 33px;
+  width: 230px;
+  box-sizing: border-box;
+  line-height: 24px;
+}
+
+/* 忘记密码 */
+.waiji {
+  font-size: 12px;
+  color: #fe8c00;
+  float: right;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+/* 按钮区 */
+.anniu {
+  width: 100%;
+  cursor: pointer;
+  color: #222222;
+  background-image: linear-gradient(135deg, #ffd000 0, #ffbd00 100%);
+  outline: none;
+  box-shadow: 0 2px 1px rgba(191, 105, 0, 0.15);
+  border: none;
+  border-radius: 0;
+  padding: 7px 20px 6px;
+  line-height: 1.5;
+  margin: 10px 0px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 2px;
+}
+
+/* === */
+.meiyou {
+  color: #666666;
+  font-size: 14px;
+  font-weight: 400;
+}
+.meiyou a {
+  color: #fe8c00;
+  padding-left: 5px;
+}
+
+/* === */
+.naisimi {
+  margin-top: 20px;
+}
+
+.h3 {
+  position: relative;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  height: 0;
+  overflow: visible;
+}
+.h3 span {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  margin-left: -75px;
+  width: 150px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: #666;
+  background: #fff;
+}
+
+.tubiao {
+  text-align: center;
+}
+.tubiao .QQ {
+  background-image: url("//s0.meituan.net/bs/file/?f=fe-sso-fs:build/assets/sp-normal.2ee5c09.png");
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 20px;
+  background-position: -1250px -491px;
+  cursor: pointer;
+}
+.tubiao .weixin {
+  background-image: url("//s0.meituan.net/bs/file/?f=fe-sso-fs:build/assets/sp-normal.2ee5c09.png");
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-position: -1250px -599px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+/* ====== */
+footer {
+  margin: 0 auto 30px;
+  clear: both;
+  width: 980px;
+  font-size: 12px;
+  color: #999;
+  margin-top: 50px;
+}
+
+.top0 {
+  margin-bottom: 20px;
+  padding: 12px 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.top0 ul {
+  display: flex;
+  width: 594px;
+  color: #eee;
+}
+
+.top0 ul li {
+  float: left;
+  margin: 5px 0;
+  padding: 0 16px;
+  line-height: 14px;
+  color: #999;
+  cursor: pointer;
+}
+
+.top0 ul li.xun {
+  border-right: 1px solid #eee;
+}
+
+/* ====== */
+.naisiYe{
+    visibility: hidden;
+}
